@@ -4,9 +4,21 @@ body {
   color: yellow;
 }
 .jumbotron {
+  height: 375px;
   background-color: transparent;
   text-align: center;
+  font-size: 55px;
   font-family: 'Poller One', cursive;
+}
+.card {
+  background-color: transparent;
+  font-family: 'Poller One', cursive;
+  color: lightblue;
+  border: lightblue;
+  border-width: 2px;
+}
+.card-title {
+  color: yellow;
 }
 h2 {
   font-family: 'Poller One', cursive;
@@ -16,6 +28,7 @@ li {
   padding: 5px;
   margin: 5px;
   font-family: 'Poller One', cursive;
+  font-size: larger;
   color: yellow;
 }
 ul {
