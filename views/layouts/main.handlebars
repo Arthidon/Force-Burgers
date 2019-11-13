@@ -36,37 +36,59 @@
 	</div>
 	<div class="row">
 		<div class="col-md-3">
-<!-- CARD -->
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Add a Burger</h5>
-    <h6 class="card-subtitle mb-2 text-muted"></h6>
+			<!-- CARD -->
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Add a Burger</h5>
+					<h6 class="card-subtitle mb-2 text-muted"></h6>
 
-<form class="create-form">
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
-  </div>
+					<form class="create-form">
+						<div class="form-group">
+							<label for="ca">Burger Name:</label>
+							<input type="text" id="ca" name="name">
+						</div>
 
-  <div class="form-group">
-    <label for="devoured">Eaten?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Already Eaten!<br>
-    <input type="radio" name="devoured" value="0"> Need to Eat
-  </div>
+						<div class="form-group">
+							<label for="devoured">Eaten?</label><br>
+							<input type="radio" name="devoured" value="1" checked> Already Eaten!<br>
+							<input type="radio" name="devoured" value="0"> Need to Eat
+						</div>
 
-  <button class="btn btn-outline-secondary" type="submit">Add Burger</button>
-</form>
+						<button class="btn btn-outline-secondary" type="submit">Add Burger</button>
+					</form>
 
-  </div>
-</div>
-
+				</div>
+			</div>
+			<!-- End Card -->
 		</div>
 		<div class="col-md-6">
 			{{{ body }}}
 		</div>
+		<!-- Menu -->
 		<div class="col-md-3">
+
+			<div id="menu" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title"><i style="color: lightblue;" class="fas fa-journal-whills"></i> Specialty Burgers</h5>
+					<h6 class="card-subtitle mb-2 text-muted"></h6>
+					<ul>
+						<li>Sio Bibble</li>
+						<li>Dud Bolt</li>
+						<li>Shu Mai</li>
+						<li>Sweitt Concorkill</li>
+						<li>Loatha Sommover</li>
+
+					</ul>
+
+
+
+				</div>
+			</div>
+
 		</div>
+		<!-- End Menu -->
 	</div>
 </div>
-	</body>
+</body>
+
 </html>
