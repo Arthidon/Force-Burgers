@@ -2,10 +2,12 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  font-family: 'Poller One', cursive;
 }
 
 .label {
   font-weight: bold;
+  font-family: 'Poller One', cursive;
 }
 
 .create-update-form {
