@@ -1,13 +1,32 @@
+body {
+  background-image: url(../images/starry-sky.jpg);
+  background-size: cover;
+  color: yellow;
+}
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
+  font-family: 'Poller One', cursive;
+}
+h2 {
+  font-family: 'Poller One', cursive;
+  color: lightblue;
+}
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
   font-family: 'Poller One', cursive;
+  color: yellow;
+}
+ul {
+  font-family: 'Poller One', cursive;
+  color: yellow;
 }
 
 .label {
   font-weight: bold;
   font-family: 'Poller One', cursive;
+  color: yellow;
 }
 
 .create-update-form {
